@@ -26,8 +26,10 @@ udiskie                                                # manage removable media
 hyprland                                               # wlroots-based wayland compositor
 # dunst                                                  # notification daemon
 swaync                                                 # notification daemon
+hypridle                                               # idle daemon
+hyprshade                                              # shade configuration tool
 rofi-wayland                                           # application launcher
-waybar                                                 # system bar
+waybar-git                                             # system bar
 swww                                                   # wallpaper
 # swaylock-effects-git                                   # lock screen
 hyprlock                                               # lock screen

@@ -6,13 +6,13 @@
 
 # --------------------------------------------------- // Dependencies
 xdg-desktop-portal-gtk                                 # xdg desktop portal using gtk
-# emote                                                # emoji picker gtk3
+# emote                                                 # emoji picker gtk3
 
 # --------------------------------------------------- // Gaming
 steam                                                  # gaming platform
 gamemode                                               # daemon and library for game optimisations
 mangohud                                               # system performance overlay
-gamescope                                            # micro-compositor for gaming
+gamescope                                              # micro-compositor for gaming
 
 # --------------------------------------------------- // Music
 cava                                                   # audio visualizer
@@ -22,3 +22,102 @@ spotify-player-full                                    # CLI spotify
 # spicetify-cli                                          # cli to customize spotify client
 
 # --------------------------------------------------- // Etc
+alsa-utils                                            # utilities for managing ALSA sound
+amd-ucode                                             # microcode for AMD processors
+aria2                                                 # multi-protocol & multi-source command-line download utility
+audacity                                              # open-source audio editing software
+base                                                  # essential packages for Arch Linux
+base-devel                                            # development tools for building packages
+bind                                                  # DNS server software
+bitwarden                                             # password manager
+bitwarden-cli                                         # command line interface for Bitwarden
+btop                                                  # interactive system resource monitor
+chromium                                              # open-source web browser
+cmatrix                                               # display a matrix-style screen
+discord                                               # communication platform for gamers
+dmidecode                                             # tool for decoding DMI data
+dnsmasq                                               # lightweight DNS forwarder and DHCP server
+dnsperf                                               # DNS performance measurement tool
+earlyoom                                              # early OOM killer for Linux
+etcher-bin                                            # user-friendly image writing tool
+font-manager                                          # font management application
+freetube-bin                                          # free, open-source desktop client for YouTube
+galculator                                            # calculator application
+gimp                                                  # GNU Image Manipulation Program
+git                                                   # distributed version control system
+glow                                                  # Markdown renderer for the command line
+notepad                                               # simple text editor
+goverlay                                              # overlay for displaying game stats
+gparted-git                                           # partition editor
+guvcview                                              # graphical utility for video devices
+hexchat                                               # IRC client based on XChat
+htop                                                  # interactive process viewer
+hwinfo                                                # hardware information tool
+inetutils                                             # collection of basic networking utilities
+iotop                                                 # display I/O usage by processes
+kmon                                                  # kernel memory monitor
+less                                                  # file pager for viewing text
+lib32-gamemode                                        # 32-bit version of Gamemode
+libgsf                                                # library for reading Gnome Sfv file format
+libguestfs                                            # library for accessing and modifying disk images
+libpulse                                              # PulseAudio client libraries
+libreoffice-still                                     # office suite
+libva-nvidia-driver                                   # NVIDIA Video Acceleration API
+lutris                                                # gaming platform for Linux
+man-db                                                # documentation database
+man-pages                                             # collection of man pages
+mousetweaks                                           # mouse configuration tool
+mpv                                                   # media player
+mpv-handler                                           # tool to manage MPV player
+multitail                                             # view multiple log files in a single terminal
+nfs-utils                                             # utilities for Network File System
+noi-desktop-bin                                       # ChatGPT wrapper
+nvchad-git                                            # Neovim configuration with Chadtree
+nvidia-settings                                       # configuration tool for NVIDIA graphics
+nvidia-utils                                          # NVIDIA driver utilities
+nvtop                                                 # real-time NVIDIA GPU monitoring
+nwg-displays                                          # display manager for Wayland
+obs-studio                                            # open-source streaming and recording software
+obsidian                                              # note-taking and knowledge management app
+odt2txt                                               # convert ODT files to plain text
+openrgb                                               # control RGB lighting
+p7zip-gui                                             # GUI for p7zip archiving tool
+pkgtop                                                # top-like interface for package management
+plocate                                               # faster alternative to locate
+powertop                                              # tool to diagnose issues with power consumption
+preload                                               # daemon that preloads applications into memory
+print-manager                                         # print management application
+proton-ge-custom-bin                                  # custom Proton builds for gaming
+proton-vpn-gtk-app                                    # GUI for ProtonVPN
+protontricks                                          # helper script for running Windows games on Linux
+protonup-qt                                           # GUI for updating Proton
+rclone                                                # command line program to manage files on cloud storage
+reflector                                             # utility to retrieve and filter the latest mirror list
+remmina                                               # remote desktop client
+ripgrep                                               # command-line search tool
+rsync                                                 # file synchronization tool
+slack-desktop                                         # desktop client for Slack
+smartmontools                                         # monitor S.M.A.R.T. disk attributes
+socat                                                 # multipurpose relay
+sunshine                                              # game streaming application
+system-config-printer                                 # graphical interface for managing printers
+systemd-ui                                            # graphical interface for systemd
+thunderbird                                           # email client
+timeshift                                             # backup utility for Linux
+tmux                                                  # terminal multiplexer
+traceroute                                            # network diagnostics tool
+tree                                                  # display directory structure in tree format
+typora                                                # markdown editor
+ueberzugpp                                            # image viewer for terminal
+ufw                                                   # uncomplicated firewall
+unzip                                                 # file extraction utility
+vkd3d                                                 # Vulkan compatibility layer for Direct3D 12
+vulkan-tools                                          # utilities for Vulkan API
+wayland-utils                                         # utilities for Wayland
+webcamoid                                             # webcam software
+wine                                                  # Windows compatibility layer
+winetricks                                            # script to help install Windows software in Wine
+wlr-randr                                             # Wayland utility for screen management
+wttrbar                                               # weather display for the terminal
+zip                                                   # file compression utility
+zoom                                                  # video conferencing tool
