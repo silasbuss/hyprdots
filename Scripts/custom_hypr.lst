@@ -17,18 +17,20 @@ brightnessctl                                          # screen brightness contr
 udiskie                                                # manage removable media
 
 # --------------------------------------------------- // Display Manager
-sddm                                                   # display manager for KDE plasma
-qt5-quickcontrols                                      # for sddm theme ui elements
-qt5-quickcontrols2                                     # for sddm theme ui elements
-qt5-graphicaleffects                                   # for sddm theme effects
+    # sddm                                                   # display manager for KDE plasma
+    # qt5-quickcontrols                                      # for sddm theme ui elements
+    # qt5-quickcontrols2                                     # for sddm theme ui elements
+    # qt5-graphicaleffects                                   # for sddm theme effects
 
 # --------------------------------------------------- // Window Manager
 hyprland                                               # wlroots-based wayland compositor
-dunst                                                  # notification daemon
+# dunst                                                  # notification daemon
+swaync                                                 # notification daemon
 rofi-wayland                                           # application launcher
 waybar                                                 # system bar
 swww                                                   # wallpaper
-swaylock-effects-git                                   # lock screen
+# swaylock-effects-git                                   # lock screen
+hyprlock                                               # lock screen
 wlogout                                                # logout menu
 grimblast-git                                          # screenshot tool
 hyprpicker                                             # color picker
@@ -40,13 +42,18 @@ cliphist                                               # clipboard manager
 polkit-gnome                                           # authentication agent
 xdg-desktop-portal-hyprland                            # xdg desktop portal for hyprland
 pacman-contrib                                         # for system update check
-python-pyamdgpuinfo                                    # for amd gpu info
+# python-pyamdgpuinfo                                    # for amd gpu info
 parallel                                               # for parallel processing
 jq                                                     # for json processing
 imagemagick                                            # for image processing
-qt5-imageformats                                       # for dolphin image thumbnails
-ffmpegthumbs                                           # for dolphin video thumbnails
-kde-cli-tools                                          # for dolphin file type defaults
+# qt5-imageformats                                       # for dolphin image thumbnails
+# ffmpegthumbs                                           # for dolphin video thumbnails
+# kde-cli-tools                                          # for dolphin file type defaults
+catfish                                                # thunar file searching 
+gvfs                                                   # thunar trash support, mounting with udisk and remote filesystems 
+tumbler                                                # thunar thumbnail previews 
+thunar-volman                                          # thunar removable device management 
+thunar-archive-plugin                                  # thunar archive creation and extraction
 libnotify                                              # for notifications
 
 # --------------------------------------------------- // Theming
@@ -61,10 +68,13 @@ qt6-wayland                                            # wayland support in qt6
 # --------------------------------------------------- // Applications
 firefox                                                # browser
 kitty                                                  # terminal
-dolphin                                                # kde file manager
-ark                                                    # kde file archiver
-vim                                                    # terminal text editor
-code                                                   # ide text editor
+# dolphin                                                # kde file manager
+# ark                                                    # kde file archiver
+thunar                                                 # Xfce file manager
+# vim                                                    # terminal text editor
+neovim                                                 # VIM improved                               
+# code                                                   # ide text editor
+vscodium-bin                                           # VS Code without MS branding/telemetry/licensing
 
 # --------------------------------------------------- // Shell
 eza|zsh                                                # file lister for zsh
@@ -73,7 +83,7 @@ zsh-theme-powerlevel10k-git|zsh oh-my-zsh-git          # theme for zsh
 eza|fish                                               # file lister for fish
 starship|fish                                          # customizable shell prompt
 fastfetch                                              # system information fetch tool
-pokemon-colorscripts-git|zsh                           # display pokemon sprites
+# pokemon-colorscripts-git|zsh                           # display pokemon sprites
 
 # --------------------------------------------------- // HyDE
 hyde-cli-git                                           # cli tool to manage hyde

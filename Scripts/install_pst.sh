@@ -46,15 +46,27 @@ else
     echo -e "\033[0;33m[WARNING]\033[0m sddm is not installed..."
 fi
 
-# dolphin
-if pkg_installed dolphin && pkg_installed xdg-utils; then
+# # dolphin
+# if pkg_installed dolphin && pkg_installed xdg-utils; then
 
-    echo -e "\033[0;32m[FILEMANAGER]\033[0m detected // dolphin"
-    xdg-mime default org.kde.dolphin.desktop inode/directory
+#     echo -e "\033[0;32m[FILEMANAGER]\033[0m detected // dolphin"
+#     xdg-mime default org.kde.dolphin.desktop inode/directory
+#     echo -e "\033[0;32m[FILEMANAGER]\033[0m setting" `xdg-mime query default "inode/directory"` "as default file explorer..."
+
+# else
+#     echo -e "\033[0;33m[WARNING]\033[0m dolphin is not installed..."
+# fi
+
+
+# thunar
+if pkg_installed thunar && pkg_installed xdg-utils; then
+
+    echo -e "\033[0;32m[FILEMANAGER]\033[0m detected // thunar"
+    xdg-mime default thunar.desktop inode/directory
     echo -e "\033[0;32m[FILEMANAGER]\033[0m setting" `xdg-mime query default "inode/directory"` "as default file explorer..."
 
 else
-    echo -e "\033[0;33m[WARNING]\033[0m dolphin is not installed..."
+    echo -e "\033[0;33m[WARNING]\033[0m thunar is not installed..."
 fi
 
 # shell
